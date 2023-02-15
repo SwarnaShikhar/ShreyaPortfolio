@@ -103,8 +103,8 @@ button.div-b-a-b-but {
 .div-c {
   text-align: center;
   font-size: 40px;
-  margin-top: 25px;
-  padding-bottom: 20px;
+  margin-top: 20px;
+  padding-bottom: 10px;
 }
 
 .div-d {
@@ -142,8 +142,8 @@ button.div-b-a-b-but {
   width: 320px; */
   width: 100%;
   height: auto;
-  max-width: 450px;
-  height: 420px;
+  max-width: 380px;
+  height: 380px;
   border-radius: 50%;
   display: block;
   margin-left: auto;
@@ -259,7 +259,7 @@ button.div-b-a-b-but {
 #image {
   width: 100%;
   height: auto;
-  padding: 30px 5px 5px 10px;
+  padding: 30px 5px 5px 50px;
 }
 
 .btn-card {
