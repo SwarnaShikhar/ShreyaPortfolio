@@ -1,14 +1,22 @@
+@import url('https://fonts.cdnfonts.com/css/gill-sans-mt-condensed');
+
 body {
-  font-family: 'Cabin', sans-serif;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Gill Sans MT', sans-serif !important;
   background: rgb(53, 19, 153) !important;
   background: linear-gradient(191deg, rgba(53, 19, 153, 1) 0%, rgba(73, 11, 109, 1) 35%, rgba(99, 8, 81, 1) 100%) !important;
 }
-a
-{
+
+#resumebtn {
+  font-size: 24px;
+  width: 100% !important;
+  height: auto !important;
+}
+
+a {
   text-decoration: none;
   color: white;
 }
+
 .box {
   height: 100vh;
   color: white;
@@ -22,24 +30,37 @@ a
 
 .formbg {
 
-  background: rgb(53,19,153);
-  background: linear-gradient(191deg, rgba(53,19,153,1) 0%, rgba(73,11,109,1) 35%, rgba(99,8,81,1) 100%);
+  background: rgb(53, 19, 153);
+  background: linear-gradient(191deg, rgba(53, 19, 153, 1) 0%, rgba(73, 11, 109, 1) 35%, rgba(99, 8, 81, 1) 100%);
   border-radius: 10px;
-  border: 2px solid #820D6E;
+  /* border: 2px solid #820D6E; */
   padding: 60px !important;
+  width: 80% !important;
+}
+
+.formbg input,
+textarea {
+  background-color: transparent !important;
+  color: white !important;
 }
 
 .subbtn {
 
-  background: rgb(53,19,153);
-background: linear-gradient(191deg, rgba(53,19,153,1) 0%, rgba(73,11,109,1) 35%, rgba(99,8,81,1) 100%);
-border: 2px solid #820D6E;
+  background: rgb(53, 19, 153);
+  background: linear-gradient(191deg, rgba(53, 19, 153, 1) 0%, rgba(73, 11, 109, 1) 35%, rgba(99, 8, 81, 1) 100%);
+  border: 2px solid #820D6E;
   border-radius: 30px;
   color: white !important;
+  text-align: center;
+  margin-left: -15px !important;
 }
 
 a.nav-link {
   color: rgb(149, 144, 144);
+}
+
+.navbar {
+  margin-top: 35px !important;
 }
 
 .navbar a {
@@ -117,8 +138,12 @@ button.div-b-a-b-but {
 }
 
 #sapiens {
-  height: 320px;
-  width: 320px;
+  /* height: 320px;
+  width: 320px; */
+  width: 100%;
+  height: auto;
+  max-width: 450px;
+  height: 420px;
   border-radius: 50%;
   display: block;
   margin-left: auto;
@@ -199,7 +224,7 @@ button.div-b-a-b-but {
 
 #card-p {
   border-radius: 10px;
-  border: 2px solid #820D6E;
+  /* border: 2px solid #820D6E; */
   /* width: 100%; */
   /* margin: 20px; */
   width: 300px;
@@ -212,8 +237,10 @@ button.div-b-a-b-but {
 }
 
 #frame {
-  width: 150px;
-  height: 180px;
+  /* width: 150px;
+  height: 180px; */
+  width: 100%;
+  max-width: 250px !important;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
@@ -224,8 +251,14 @@ button.div-b-a-b-but {
   height: 500px;
 }
 
+.resbtn {
+  margin-top: -20px !important;
+  margin-bottom: 10px;
+}
+
 #image {
-  width: 280px;
+  width: 100%;
+  height: auto;
   padding: 30px 5px 5px 10px;
 }
 
@@ -363,8 +396,8 @@ button.div-b-a-b-but {
 }
 
 .skill-show {
-  width: 200px;
-  border: 1px solid black;
+  width: 300px;
+  border: 1px solid white;
   justify-content: center;
   border-radius: 16px;
   padding: 5px 5px 5px 5px;
@@ -526,11 +559,15 @@ button.div-b-a-b-but {
 }
 
 #card {
-  width: 360px;
-  height: 260px;
+  /* width: 360px;
+  height: 260px; */
+  width: 100%;
+  max-width: 400px;
+  margin: 10px;
+  height: auto;
   border-radius: 22px;
   background: linear-gradient(180deg, rgba(240, 170, 56, 0.989562) 0%, rgba(240, 170, 56, 0.81437) 0.01%, rgba(240, 170, 56, 0.506937) 2.4%, rgba(240, 170, 56, 0.342182) 2.41%, rgba(240, 170, 56, 0) 64.9%);
-  border: 5px solid white;
+  /* border: 5px solid white; */
 }
 
 #card-title {

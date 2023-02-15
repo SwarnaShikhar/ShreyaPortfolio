@@ -13,7 +13,11 @@ export default function ContactMe() {
         </div>
         <div className="divr">
           <h5>Hey! you can contact me here..</h5>
-          <form action="https://formspree.io/f/xrgvpjno" method="POST" className="formbg">
+          <form
+            action="https://formspree.io/f/xrgvpjno"
+            method="POST"
+            className="formbg"
+          >
             <div className="mb-3">
               <label for="exampleInputName" className="form-label">
                 Your Name
@@ -65,7 +69,7 @@ export default function ContactMe() {
               value="send"
               className="btn btn-primary subbtn"
             >
-              <GrSend style={{color:"white"}}/>
+              <GrSend style={{ color: "white" }} />
               &emsp;Send
             </button>
           </form>
