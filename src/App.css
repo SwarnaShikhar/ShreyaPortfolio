@@ -1,10 +1,15 @@
-body{
+body {
   font-family: 'Cabin', sans-serif;
-font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans', sans-serif;
+  background: rgb(53, 19, 153) !important;
+  background: linear-gradient(191deg, rgba(53, 19, 153, 1) 0%, rgba(73, 11, 109, 1) 35%, rgba(99, 8, 81, 1) 100%) !important;
 }
-
+a
+{
+  text-decoration: none;
+  color: white;
+}
 .box {
-  background-image: linear-gradient(45deg, purple 20%, blue);
   height: 100vh;
   color: white;
 }
@@ -15,7 +20,25 @@ font-family: 'PT Sans', sans-serif;
   padding: 10px 30px;
 }
 
-a.nav-link{
+.formbg {
+
+  background: rgb(53,19,153);
+  background: linear-gradient(191deg, rgba(53,19,153,1) 0%, rgba(73,11,109,1) 35%, rgba(99,8,81,1) 100%);
+  border-radius: 10px;
+  border: 2px solid #820D6E;
+  padding: 60px !important;
+}
+
+.subbtn {
+
+  background: rgb(53,19,153);
+background: linear-gradient(191deg, rgba(53,19,153,1) 0%, rgba(73,11,109,1) 35%, rgba(99,8,81,1) 100%);
+border: 2px solid #820D6E;
+  border-radius: 30px;
+  color: white !important;
+}
+
+a.nav-link {
   color: rgb(149, 144, 144);
 }
 
@@ -175,10 +198,17 @@ button.div-b-a-b-but {
 }
 
 #card-p {
-  border-radius: 12%;
-  width: 220px;
-  height: 300px;
-  background: linear-gradient(179.97deg, #440B68 0.02%, #440B68 0.03%, rgba(68, 11, 104, 0.705692) 0.04%, rgba(68, 11, 104, 0.705875) 13.55%, rgba(68, 11, 104, 0.706892) 13.56%, rgba(68, 11, 104, 0.707807) 19.29%, rgba(68, 11, 104, 0.714932) 49.99%, rgba(68, 11, 104, 0.741214) 50%, rgba(68, 11, 104, 0.770833) 63.01%, rgba(68, 11, 104, 0.269756) 99.96%, rgba(68, 11, 104, 0.206279) 99.97%, rgba(68, 11, 104, 0) 99.98%);
+  border-radius: 10px;
+  border: 2px solid #820D6E;
+  /* width: 100%; */
+  /* margin: 20px; */
+  width: 300px;
+  height: auto;
+  padding: 10px;
+  /* background: linear-gradient(179.97deg, #440B68 0.02%, #440B68 0.03%, rgba(68, 11, 104, 0.705692) 0.04%, rgba(68, 11, 104, 0.705875) 13.55%, rgba(68, 11, 104, 0.706892) 13.56%, rgba(68, 11, 104, 0.707807) 19.29%, rgba(68, 11, 104, 0.714932) 49.99%, rgba(68, 11, 104, 0.741214) 50%, rgba(68, 11, 104, 0.770833) 63.01%, rgba(68, 11, 104, 0.269756) 99.96%, rgba(68, 11, 104, 0.206279) 99.97%, rgba(68, 11, 104, 0) 99.98%); */
+  background: rgb(53, 19, 153) !important;
+  background: linear-gradient(191deg, rgba(53, 19, 153, 1) 0%, rgba(73, 11, 109, 1) 35%, rgba(99, 8, 81, 1) 100%) !important;
+  margin-top: 20%;
 }
 
 #frame {
@@ -281,9 +311,10 @@ button.div-b-a-b-but {
     }
   }
 }
-@media(max-width:435px){
-  #image{
-    width:180px;
+
+@media(max-width:435px) {
+  #image {
+    width: 180px;
   }
 }
 
@@ -420,7 +451,8 @@ button.div-b-a-b-but {
   margin: 10px 10px 10px 10px;
   font-size: 16px;
 }
-.exp p{
+
+.exp p {
   font-size: 17px;
 }
 
@@ -646,15 +678,17 @@ button.div-b-a-b-but {
   margin-left: 150px;
 }
 
-@media(max-width:760px){
+@media(max-width:760px) {
   .divr form {
     width: 500px;
     padding: 50px 50px 0px 150px;
   }
+
   .divr h5 {
     padding-left: 150px;
     padding-top: 30px;
   }
+
   #submit {
     margin: 10px;
     width: 150px;
@@ -662,49 +696,56 @@ button.div-b-a-b-but {
   }
 }
 
-@media(max-width:590px){
+@media(max-width:590px) {
   .divmain {
     display: inline;
   }
+
   .divr form {
     width: 400px;
     padding: 50px 0px 0px 20px;
   }
-  .divl{
+
+  .divl {
     padding-left: 100px;
   }
+
   .divr h5 {
     padding-left: 80px;
     padding-top: 30px;
   }
 }
 
-@media(max-width:430px){
+@media(max-width:430px) {
   .divr form {
     width: 350px;
     padding: 50px 0px 0px 20px;
   }
-  .divl{
+
+  .divl {
     padding-left: 80px;
   }
 }
 
-@media(max-width:380px){
+@media(max-width:380px) {
   .divr form {
     width: 260px;
     padding: 50px 0px 0px 10px;
   }
-  .divl{
+
+  .divl {
     padding-left: 30px;
   }
+
   #submit {
     margin: 10px;
     width: 150px;
     margin-left: 50px;
   }
+
   .divr h5 {
     padding-left: 20px;
     padding-top: 30px;
   }
-  
+
 }
