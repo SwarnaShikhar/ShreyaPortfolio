@@ -15,7 +15,7 @@ export default function Card() {
         <div className="card-body">
           <h5 className="card-title text-center">{<b>Shreya Roy</b>}</h5>
           <p className="card-text text-center">UX-UI Designer</p>
-          <a href="https://drive.google.com/file/d/18OeiShEfppiBuDvxOOO7MJimWRokP-FG/view?usp=sharing"><button className='div-b-a-b-but resbtn'><b>See my resume</b></button></a>
+          <a href="https://drive.google.com/file/d/18OeiShEfppiBuDvxOOO7MJimWRokP-FG/view?usp=sharing"><button id="card-res" className='div-b-a-b-but resbtn'><b>See my resume</b></button></a>
           <div className="btn-card justify-content-around">
             <a href="https://www.behance.net/shreyaroy010">
               <FaBehanceSquare className="icon" />

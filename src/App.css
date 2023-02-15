@@ -45,7 +45,6 @@ textarea {
 }
 
 .subbtn {
-
   background: rgb(53, 19, 153);
   background: linear-gradient(191deg, rgba(53, 19, 153, 1) 0%, rgba(73, 11, 109, 1) 35%, rgba(99, 8, 81, 1) 100%);
   border: 2px solid #820D6E;
@@ -138,12 +137,12 @@ button.div-b-a-b-but {
 }
 
 #sapiens {
-  /* height: 320px;
-  width: 320px; */
-  width: 100%;
-  height: auto;
-  max-width: 380px;
-  height: 380px;
+  height: 320px;
+  width: 320px;
+  /* width: 100%; */
+  /* height: auto; */
+  /* max-width: 380px; */
+  /* height: 380px; */
   border-radius: 50%;
   display: block;
   margin-left: auto;
@@ -222,12 +221,17 @@ button.div-b-a-b-but {
   justify-content: space-around;
 }
 
+#card-res{
+  margin-left: 30px;
+}
+
 #card-p {
-  border-radius: 10px;
-  /* border: 2px solid #820D6E; */
+  border-radius: 22px;
+  /* border: linear-gradient(180deg, #9F8484 0%, rgba(146, 135, 135, 0) 100%); */
+  border: 2px solid #7b767a;
   /* width: 100%; */
   /* margin: 20px; */
-  width: 300px;
+  width: 250px;
   height: auto;
   padding: 10px;
   /* background: linear-gradient(179.97deg, #440B68 0.02%, #440B68 0.03%, rgba(68, 11, 104, 0.705692) 0.04%, rgba(68, 11, 104, 0.705875) 13.55%, rgba(68, 11, 104, 0.706892) 13.56%, rgba(68, 11, 104, 0.707807) 19.29%, rgba(68, 11, 104, 0.714932) 49.99%, rgba(68, 11, 104, 0.741214) 50%, rgba(68, 11, 104, 0.770833) 63.01%, rgba(68, 11, 104, 0.269756) 99.96%, rgba(68, 11, 104, 0.206279) 99.97%, rgba(68, 11, 104, 0) 99.98%); */
@@ -237,9 +241,9 @@ button.div-b-a-b-but {
 }
 
 #frame {
-  /* width: 150px;
-  height: 180px; */
-  width: 100%;
+  width: 200px;
+  height: 200px;
+  /* width: 100%; */
   max-width: 250px !important;
   margin-left: auto;
   margin-right: auto;
@@ -257,9 +261,11 @@ button.div-b-a-b-but {
 }
 
 #image {
-  width: 100%;
-  height: auto;
-  padding: 30px 5px 5px 50px;
+  /* width: 100%; */
+  width:300px;
+  height:220px;
+  /* border-radius: 22px; */
+  padding: 30px 5px 5px 60px;
 }
 
 .btn-card {
@@ -481,8 +487,12 @@ button.div-b-a-b-but {
 }
 
 .exp {
-  margin: 10px 10px 10px 10px;
+  margin: 10px 10px 0px 50px;
   font-size: 16px;
+}
+
+.exp li{
+  padding-left: 20px;
 }
 
 .exp p {
@@ -540,13 +550,13 @@ button.div-b-a-b-but {
 
 .b-w {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   height: 50%;
 }
 
 .b-i {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   height: 50%;
 }
 
@@ -559,10 +569,10 @@ button.div-b-a-b-but {
 }
 
 #card {
-  /* width: 360px;
-  height: 260px; */
-  width: 100%;
-  max-width: 400px;
+  width: 360px;
+  height: 260px;
+  /* width: 100%; */
+  /* max-width: 400px; */
   margin: 10px;
   height: auto;
   border-radius: 22px;
@@ -588,7 +598,8 @@ button.div-b-a-b-but {
 }
 
 #wr {
-  padding-left: 50px;
+  padding-left: 100px;
+  font-size:25px;
 }
 
 @media(max-width:1100px) {
@@ -701,7 +712,7 @@ button.div-b-a-b-but {
 
 .divr form {
   width: 600px;
-  padding: 50px 0px 0px 100px;
+  margin: 0px 0px 0px 100px;
 }
 
 .divr h5 {

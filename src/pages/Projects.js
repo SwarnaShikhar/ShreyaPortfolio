@@ -5,7 +5,7 @@ import image1 from "../images/image1.png";
 import image2 from "../images/image2.png";
 import image3 from "../images/image3.png";
 import image4 from "../images/image4.png";
-import image5 from "../images/image5.png";
+// import image5 from "../images/image5.png";
 import hmct from "../images/test.png";
 import dp from "../images/swarna.png";
 
@@ -39,7 +39,7 @@ export default function Projects() {
               <img id="image" src={hmct} alt="" />
             </a>
             <a href="https://www.behance.net/gallery/159741337/Portrait-Design">
-              <img id="image" src={dp} style={{maxHeight:"350px",maxWidth:"350px"}} alt="" />
+              <img id="image" src={dp}  alt="" />
             </a>
           </div>
         </div>

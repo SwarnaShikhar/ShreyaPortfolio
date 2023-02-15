@@ -16,8 +16,7 @@ export default function ContactMe() {
           <form
             action="https://formspree.io/f/xrgvpjno"
             method="POST"
-            className="formbg"
-          >
+            className="formbg">
             <div className="mb-3">
               <label for="exampleInputName" className="form-label">
                 Your Name
