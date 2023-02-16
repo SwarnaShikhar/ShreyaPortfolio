@@ -35,7 +35,7 @@ export default function Skills() {
               <span className="skill-show">{<b>Product Designing</b>}</span>
               <span className="skill-show">{<b>Usability Testing</b>}</span>
               <span className="skill-show">{<b>Interaction Design</b>}</span>
-              <span className="skill-show">{<b></b>}</span>
+              <span className="skill-show">{<b>Illustration</b>}</span>
             </div>
           </div>
           <div className="div2-2">

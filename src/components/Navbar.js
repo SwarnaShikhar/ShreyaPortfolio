@@ -1,13 +1,39 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { NavLink } from 'react-router-dom'
 
 export default function Navbar() {
+  
 
-  const [selected, setSelected] = useState(false)
+  function toggleAbout() {
+    document.getElementById("about").style.color= "white"
+    document.getElementById("about").style.fontSize= "18px"
+  }
 
- function toggleClass () {
-  setSelected(!selected)
- }
+  function toggleProjects () {
+    document.getElementById("projects").style.color= "white"
+    document.getElementById("projects").style.fontSize= "18px"
+  }
+
+  function toggleSkills () {
+    document.getElementById("skills").style.color= "white"
+    document.getElementById("skills").style.fontSize= "18px"
+  }
+
+  function toggleExp () {
+    document.getElementById("exp").style.color= "white"
+    document.getElementById("exp").style.fontSize= "18px"
+  }
+  
+
+  function toggleBlogs () {
+    document.getElementById("blogs").style.color= "white"
+    document.getElementById("blogs").style.fontSize= "18px"
+  }
+
+  function toggleContact () {
+    document.getElementById("contact").style.color= "white"
+    document.getElementById("contact").style.fontSize= "18px"
+  }
 
   return (
     <div>
@@ -19,22 +45,22 @@ export default function Navbar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <NavLink exact activeClassName={selected ? "nav-link" : "nav-link active"} aria-current="page" to="/">{<button onClick={toggleClass}><b>About Me</b></button>}</NavLink>
+                <NavLink exact activeClassName="nav-link" aria-current="page" to="/">{<button onClick={toggleAbout}><b id='about'>About Me</b></button>}</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink exact activeClassName={selected ? "nav-link" : "nav-link active"} aria-current="page" to="/project">{<button onClick={toggleClass}><b>Projects</b></button>}</NavLink>
+                <NavLink exact activeClassName="nav-link" aria-current="page" to="/project">{<button onClick={toggleProjects}><b id='projects'>Projects</b></button>}</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink exact activeClassName={selected ? "nav-link" : "nav-link active"} aria-current="page" to="/skills">{<button onClick={toggleClass}><b>Skills</b></button>}</NavLink>
+                <NavLink exact activeClassName="nav-link" aria-current="page" to="/skills">{<button onClick={toggleSkills}><b id='skills'>Skills</b></button>}</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink exact activeClassName={selected ? "nav-link" : "nav-link active"} aria-current="page" to="/experience">{<button onClick={toggleClass}><b>Experience</b></button>}</NavLink>
+                <NavLink exact activeClassName="nav-link" aria-current="page" to="/experience">{<button onClick={toggleExp}><b id='exp'>Experience</b></button>}</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink exact activeClassName={selected ? "nav-link" : "nav-link active"} aria-current="page" to="/blogs">{<button onClick={toggleClass}><b>Blogs</b></button>}</NavLink>
+                <NavLink exact activeClassName="nav-link" aria-current="page" to="/blogs">{<button  onClick={toggleBlogs}><b id='blogs'>Blogs</b></button>}</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink exact activeClassName={selected ? "nav-link" : "nav-link active"} aria-current="page" to="/contactme">{<button onClick={toggleClass}><b>Contact Me</b></button>}</NavLink>
+                <NavLink exact activeClassName="nav-link" aria-current="page" to="/contactme">{<button onClick={toggleContact}><b id='contact'>Contact Me</b></button>}</NavLink>
               </li>
             </ul>
           </div>
