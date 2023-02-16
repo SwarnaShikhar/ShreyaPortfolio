@@ -6,10 +6,11 @@ export default function AboutMe() {
   return (
     <div className='box'>
       <Navbar />
-      <div className='div-a'><h1>Hi, I am <b>Shreya</b></h1></div>
       <div className='div-b'>
         <div className="div-b-a">
+        <div className='div-a'><h1>Hi, I am <b>Shreya</b></h1></div>
           <div className="div-b-a-a">
+            
             &emsp;I'm UX-UI Designer and Product Designer from India, learning Illustration. I am trying to understand how users and technology communicate with each other and focus on attractive and user-friendly designing.
           </div>
           <div className="div-b-a-b" id='resumebtn'>
@@ -25,8 +26,8 @@ export default function AboutMe() {
         <div className='ell'></div>
       </div>
       <div className='div-d'>
-        <div className='div-d-a'>UX Design</div>
-        <div className='div-d-b'>Product Designing</div>
+        <p>UX Design</p>
+        <p>Product Designing</p>
       </div>
     </div>
   )

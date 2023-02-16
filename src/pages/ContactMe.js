@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Card from "../components/Card";
 import { GrSend } from "react-icons/gr";
+import { FiSend } from "react-icons/fi"
 
 export default function ContactMe() {
   return (
@@ -47,16 +48,16 @@ export default function ContactMe() {
               </div>
             </div>
             <div className="subm">
-      
-            <button
-              type="submit"
-              id="submit"
-              value="send"
-              className="btn btn-primary subbtn">
-              <GrSend id="id-sign" />
-              &emsp;Send
-            </button>
-            
+
+              <button
+                type="submit"
+                id="submit"
+                value="send"
+                className="btn btn-primary subbtn">
+                <FiSend id="id-sign" />
+                Send
+              </button>
+
             </div>
           </form>
         </div>
