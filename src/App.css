@@ -8,10 +8,7 @@ body {
     rgba(53, 19, 153, 1) 15%,
     rgba(73, 11, 109, 1) 50%,
     rgba(99, 8, 81, 1) 100%
-  ) !important;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  height: calc(100vh + 10rem);
+  ) no-repeat !important;
 }
 
 #resumebtn {
@@ -285,7 +282,7 @@ button.div-b-a-b-but {
 
 /* Project */
 .cart {
-  padding-top: 50px;
+  padding-top: 20px;
   display: flex;
   justify-content: space-around;
 }
@@ -435,7 +432,7 @@ button.div-b-a-b-res {
   width: 80%;
   display: flex;
   justify-content: center;
-  padding-left: 50px;
+  padding-left: 100px;
   padding-top: 50px;
 }
 
