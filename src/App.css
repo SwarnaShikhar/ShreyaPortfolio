@@ -43,8 +43,8 @@ a {
 }
 
 .box {
-  height: 100vh;
   color: white;
+  padding-bottom: 5rem;
 }
 
 /* About Me Page */
