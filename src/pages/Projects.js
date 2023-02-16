@@ -37,7 +37,7 @@ export default function Projects() {
 }
 
 
-{/* <div className="p-use">
+/* <div className="p-use">
           <div className="project-1 col-md-4">
             <a href="https://www.behance.net/gallery/125027349/Tea-subscription-Service">
               <img id="image" src={image1} alt="" />
@@ -62,4 +62,4 @@ export default function Projects() {
               <img id="image" src={dp} alt="" />
             </a>
           </div>
-        </div> */}
+        </div> */
