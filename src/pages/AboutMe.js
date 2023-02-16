@@ -22,6 +22,7 @@ export default function AboutMe() {
       </div>
       <div className='div-c'>
         <b>What I do</b>
+        <div className='ell'></div>
       </div>
       <div className='div-d'>
         <div className='div-d-a'>UX Design</div>

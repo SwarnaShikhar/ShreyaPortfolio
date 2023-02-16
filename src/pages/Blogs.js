@@ -16,18 +16,18 @@ export default function Blogs() {
         </div>
         <div className="div-c-right">
           <div>
-            <h5 id="wr">Blogs I have written</h5>
+            <h5 id="wr"><b>Blogs that I have written</b></h5>
           </div>
           <div className="b-w">
             <div className="card" id="card">
               <img src={devfest} className="card-img-top" id="img" alt="" />
               <div className="card-body">
                 <h5 className="card-title" id="card-title">
-                  Designs for Devfest Siliguri 2k22
+                  <b>Designs for Devfest Siliguri 2k22</b>
                 </h5>
                 <p className="card-text" id="card-text">
                   DevFest is an annual decentralized tech conference hosted by
-                  the Google Developer Groups (GDG) community...
+                  the Google Developer Groups (GDG) community.Each DevFest event is crafted by...
                 </p>
                 <a href="https://medium.com/@royshreya538/designs-for-devfest-siliguri-2k22-de8d49cbf509">
                   <button class="btn btn-primary" id="continue">
@@ -40,7 +40,7 @@ export default function Blogs() {
               <img src={survey} className="card-img-top" id="img" alt="" />
               <div className="card-body">
                 <h5 className="card-title" id="card-title">
-                  Survey on Tea Consumption- UX case study with UI
+                  <b>Survey on Tea Consumption- UX case study with UI</b>
                 </h5>
                 <p className="card-text" id="card-text">
                   I joined college one year ago and I got to know about UX-UI
@@ -55,14 +55,14 @@ export default function Blogs() {
             </div>
           </div>
           <div>
-            <h5 id="wr">Blogs I am inspired by</h5>
+            <h5 id="wr"><b>Blogs that I have read and I like</b></h5>
           </div>
           <div className="b-i">
             <div className="card" id="card">
               <img src={money} className="card-img-top" id="img" alt="" />
               <div className="card-body">
                 <h5 className="card-title" id="card-title">
-                  How to Earn Money in 2023 While Learning UI/UX Design
+                  <b>How to Earn Money in 2023 While Learning UI/UX Design</b>
                 </h5>
                 <p className="card-text" id="card-text">
                   The demand for professionals in the field of UI/UX design has
@@ -79,7 +79,7 @@ export default function Blogs() {
               <img src={UX} className="card-img-top" id="img" alt="" />
               <div className="card-body">
                 <h5 className="card-title" id="card-title">
-                  User Experience (UX) Design
+                  <b>User Experience (UX) Design</b>
                 </h5>
                 <p className="card-text" id="card-text">
                   User experience (UX) design is the process design teams use to

@@ -12,22 +12,22 @@ export default function Navbar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <NavLink exact activeClassName="nav-link" aria-current="page" to="/">{<b>About Me</b>}</NavLink>
+                <NavLink exact activeClassName="nav-link" aria-current="page" to="/">{<button><b>About Me</b></button>}</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink exact activeClassName="nav-link" aria-current="page" to="/project">{<b>Projects</b>}</NavLink>
+                <NavLink exact activeClassName="nav-link" aria-current="page" to="/project">{<button><b>Projects</b></button>}</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink exact activeClassName="nav-link" aria-current="page" to="/skills">{<b>Skills</b>}</NavLink>
+                <NavLink exact activeClassName="nav-link" aria-current="page" to="/skills">{<button><b>Skills</b></button>}</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink exact activeClassName="nav-link" aria-current="page" to="/experience">{<b>Experience</b>}</NavLink>
+                <NavLink exact activeClassName="nav-link" aria-current="page" to="/experience">{<button><b>Experience</b></button>}</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink exact activeClassName="nav-link" aria-current="page" to="/blogs">{<b>Blogs</b>}</NavLink>
+                <NavLink exact activeClassName="nav-link" aria-current="page" to="/blogs">{<button><b>Blogs</b></button>}</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink exact activeClassName="nav-link" aria-current="page" to="/contactme">{<b>ContactMe</b>}</NavLink>
+                <NavLink exact activeClassName="nav-link" aria-current="page" to="/contactme">{<button><b>Contact Me</b></button>}</NavLink>
               </li>
             </ul>
           </div>

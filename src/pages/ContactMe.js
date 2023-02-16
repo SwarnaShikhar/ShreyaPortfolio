@@ -12,65 +12,52 @@ export default function ContactMe() {
           <Card />
         </div>
         <div className="divr">
-          <h5>Hey! you can contact me here..</h5>
           <form
             action="https://formspree.io/f/xrgvpjno"
             method="POST"
             className="formbg">
-            <div className="mb-3">
-              <label for="exampleInputName" className="form-label">
-                Your Name
-              </label>
-              <input
-                type="text"
-                name="Name"
-                className="form-control"
-                id="exampleInputName"
-              />
-              <div id="yourName" className="form-text"></div>
+            <div className="hey"><h5 id="change">Hey! you can contact me here..</h5></div>
+            <div class="form-group row">
+              <label for="inputName" id="size" class="col-sm-2 col-form-label">Your Name</label>
+              <div class="col-sm-10">
+                <input type="name" name="Name" class="form-control" id="inputName" />
+              </div>
             </div>
-            <div className="mb-3">
-              <label for="exampleInputEmail1" className="form-label">
-                Email address
-              </label>
-              <input
-                type="email"
-                name="Email"
-                className="form-control"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
-              />
-              <div id="emailHelp" className="form-text"></div>
+            <div class="form-group row">
+              <label for="inputEmail" id="size" class="col-sm-2 col-form-label">Email Addres</label>
+              <div class="col-sm-10">
+                <input type="mail" name="Email" class="form-control" id="inputEmail" />
+              </div>
             </div>
-            <div className="mb-3">
-              <label for="exampleInputNumber" className="form-label">
-                Your Phone Number
-              </label>
-              <input
-                type="text"
-                name="number"
-                className="form-control"
-                id="exampleInputNumber"
-              />
+            <div class="form-group row">
+              <label for="numEmail" id="size" class="col-sm-2 col-form-label">Your Phone No:</label>
+              <div class="col-sm-10">
+                <input type="text" name="number" class="form-control" id="inputNum" />
+              </div>
             </div>
-            <div class="form-group">
-              <label for="exampleFormControlTextarea1">Your Message</label>
-              <textarea
-                name="message"
-                className="form-control"
-                id="exampleFormControlTextarea1"
-                rows="3"
-              ></textarea>
+            <div class="form-group row">
+              <label for="exampleFormControlTextarea1" id="size" class="col-sm-2 col-form-label">Your Message</label>
+              <div class="col-sm-10">
+                <textarea
+                  name="message"
+                  className="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                ></textarea>
+              </div>
             </div>
+            <div className="subm">
+      
             <button
               type="submit"
               id="submit"
               value="send"
-              className="btn btn-primary subbtn"
-            >
-              <GrSend style={{ color: "white" }} />
+              className="btn btn-primary subbtn">
+              <GrSend id="id-sign" />
               &emsp;Send
             </button>
+            
+            </div>
           </form>
         </div>
       </div>
