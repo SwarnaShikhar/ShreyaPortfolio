@@ -1,8 +1,9 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Card from "../components/Card";
-// import { GrSend } from "react-icons/gr";
 import { FiSend } from "react-icons/fi"
+
+import "../pages/ContactMe.css"
 
 export default function ContactMe() {
   return (

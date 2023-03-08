@@ -1,0 +1,117 @@
+#card-p {
+    border-radius: 22px;
+    border: 2px solid #7b767a;
+    width: 300px;
+    height: 450px;
+    padding: 10px;
+    background: rgb(53, 19, 153) !important;
+    background: linear-gradient(179.97deg,
+        #440b68 0.02%,
+        #440b68 0.03%,
+        rgba(68, 11, 104, 0.705692) 0.04%,
+        rgba(68, 11, 104, 0.705875) 25.55%,
+        rgba(68, 11, 104, 0.706892) 25.56%,
+        rgba(68, 11, 104, 0.707807) 30.29%,
+        rgba(68, 11, 104, 0.714932) 39.99%,
+        rgba(68, 11, 104, 0.741214) 50%,
+        rgba(68, 11, 104, 0.770833) 63.01%,
+        rgba(68, 11, 104, 0.269756) 87.9%,
+        rgba(68, 11, 104, 0.206279) 90.92%,
+        rgba(68, 11, 104, 0) 99.98%) !important;
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card-bg {
+    background: linear-gradient(180deg, #9f8484 0%, rgba(146, 135, 135, 0) 100%);
+    display: flex;
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+    padding: 8px;
+    width: 290px;
+    height: 410px;
+    border-radius: 22px;
+    margin-top: -150px;
+    transition: 0.3s;
+  }
+  
+  .card-bg:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card-body h5 {
+    font-size: 25px;
+  }
+  
+  .button.div-b-a-b-res {
+    color: white;
+  }
+  
+  .card-body p {
+    font-size: 20px;
+    margin-top: -10px;
+  }
+  
+.icon {
+    height: 25px;
+    width: 25px;
+  }
+  
+  .icon:hover {
+    transform: scale(1.2);
+  }
+
+  #frame {
+    width: 200px;
+    height: 200px;
+    /* width: 100%; */
+    max-width: 250px !important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border: 2px solid #d9d9d9;
+    border-radius: 10px;
+  }
+
+  button.div-b-a-b-res {
+    background: rgb(53, 19, 153) !important;
+    background: linear-gradient(191deg,
+        rgba(53, 19, 153, 1) 0%,
+        rgba(73, 11, 109, 1) 35%,
+        rgba(99, 8, 81, 1) 100%) !important;
+    border-radius: 22px;
+    padding: 5px 5px 5px 5px;
+    width: 150px;
+    color: white;
+    border: 1px solid #d9d9d9;
+  }
+
+  .resbtn {
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 25px !important;
+  }
+
+  .resbtn:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+    box-shadow: 0px 0px 5px 0px white;
+  }
+
+  .btn-card {
+    padding-top: 37px;
+    display: flex;
+    gap: 15px;
+  }

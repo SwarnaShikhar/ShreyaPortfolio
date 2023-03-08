@@ -1,0 +1,28 @@
+.div-top {
+    display: flex;
+  }
+  
+  .left-div {
+    width: 20%;
+    margin-top: 200px;
+    padding-left: 50px;
+    padding-bottom: 120px;
+  }
+  
+  .right-div {
+    width: 80%;
+    margin-left: 150px;
+  }
+  
+  .exp {
+    margin: 10px 10px 0px 50px;
+    font-size: 23px;
+  }
+  
+  .exp li {
+    padding-left: 20px;
+  }
+  
+  .exp p {
+    font-size: 17px;
+  }

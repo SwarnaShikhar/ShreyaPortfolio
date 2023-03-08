@@ -1,0 +1,46 @@
+.navbar li b {
+    color: #928787;
+}
+
+.navbar li b:hover {
+    color: #fff8f8;
+}
+
+.navbar li b:focus {
+    color: #fff8f8;
+}
+
+.nav-item button {
+    border: none;
+    background: transparent;
+}
+
+.nav-item button:focus {
+    color: #fff8f8;
+}
+
+.navbar ul li {
+    padding: 10px 30px;
+    color: green !important;
+}
+
+.navbar ul li:hover {
+    font-size: 18px;
+    color: #fff8f8;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.nav-link {
+    color: rgb(149, 144, 144);
+  }
+  
+  .navbar {
+    margin-bottom: 30px;
+  }
+  
+  .navbar a {
+    color: white;
+  }

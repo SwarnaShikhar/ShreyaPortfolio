@@ -3,6 +3,8 @@ import Navbar from "../components/Navbar";
 import Card from "../components/Card";
 import book from "../images/book.png";
 
+import "../pages/Skills.css";
+
 export default function Skills() {
   return (
     <div className="box">

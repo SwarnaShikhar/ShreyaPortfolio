@@ -7,6 +7,8 @@ import tw from "../images/tw.png"
 import gt from "../images/gt.png"
 import ins from "../images/in.png";
 
+import "../components/Card.css"
+
 export default function Card() {
   return (
     <div className="card-bg">

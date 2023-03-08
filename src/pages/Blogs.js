@@ -6,6 +6,8 @@ import survey from "../images/survey.png";
 import UX from "../images/UX.webp";
 import money from "../images/Money.gif";
 
+import "../pages/Blogs.css"
+
 export default function Blogs() {
   return (
     <div className="box">

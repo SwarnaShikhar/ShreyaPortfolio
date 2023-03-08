@@ -1,0 +1,83 @@
+.div0 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .div1 {
+    position: relative;
+    width: 20%;
+    margin-top: 200px;
+    padding-left: 50px;
+    align-self: flex-start;
+  }
+  
+  .div2 {
+    width: 90%;
+    margin-left: 300px;
+  }
+  
+  .skill-card {
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+  }
+  
+  .skill-set-top {
+    display: inline-block;
+    width: 80%;
+    align-items: center;
+  }
+  
+  .div2-1 {
+    display: inline-block;
+    width: 80%;
+    justify-content: space-around;
+  }
+  
+  .skill {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+  }
+  
+  .skill-show {
+    width: 300px;
+    height: max-content;
+    border: 1px solid white;
+    justify-content: center;
+    border-radius: 16px;
+    padding: 5px;
+    margin: 15px 10px 15px 10px;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .edu p {
+    padding-top: 25px;
+  }
+  
+  .div2-2 {
+    padding-top: 60px;
+  }
+  
+  .div2-2-2 {
+    padding-right: 250px;
+  }
+  
+  .div2-2-2 h1 {
+    font-size: 45px;
+  }
+  
+  .book {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-family: "Cabin", sans-serif;
+    font-family: "PT Sans", sans-serif;
+  }
+  
+  .book img {
+    width: 5%;
+  }

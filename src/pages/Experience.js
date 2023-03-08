@@ -2,6 +2,8 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Card from "../components/Card"
 
+import "../pages/Experience.css"
+
 export default function Experience() {
   return (
     <div className='box'>
